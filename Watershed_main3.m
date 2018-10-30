@@ -22,8 +22,8 @@ yCoordLimitForIHCs = 30;
 yCoordLimitForOHCs = 50;
 
 % Filtering candidates by their volumes 
-volumeThresholdForOHCs = 100;
-volumeThresholdForIHCs = 200;
+volumeThresholdForOHCs = 460;
+volumeThresholdForIHCs = 600;
 
 innerCandid = (centroidList(:,2) <= yCoordLimitForOHCs).*(centroidList(:,2) >= yCoordLimitForIHCs);
 innerCandid = (volumeList >= volumeThresholdForIHCs).*innerCandid;
