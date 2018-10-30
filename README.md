@@ -6,7 +6,7 @@ This program needs:
   - Matlab (R2017b or newer version)
   - Fiji (https://fiji.sc/)
   - "CLASSIC WATERSHED" plugin for Fiji (https://imagej.net/Classic_Watershed) 
-    * Please install this plugin according to the instructions in advance. 
+    * Please install this plugin in advance. 
 
 Data size:
   Total          48 MB
