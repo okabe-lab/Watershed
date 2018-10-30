@@ -1,0 +1,17 @@
+// Specify threshold value
+threshold = 7009
+
+selectWindow("linearizedIm2.tif");
+// invert LUT and pixel values to have dark blobs
+run("Invert LUT");
+run("Invert","stack");
+// pre-process image with Gaussian blur
+selectWindow("linearizedIm2.tif");
+run("Gaussian Blur...", "sigma=2 stack");
+rename("blurred.tif");
+// apply plugin on pre-processed image
+run("Classic Watershed", "input=blurred mask=None use min=0 max=threshold");
+rename("watershed");
+run("Save")
+close()
+close()
