@@ -1,5 +1,5 @@
 
-Matlab scripts for analyzing images of cleared cochlea immunostained with anti-MYO7A antibody (hair cell marker).
+Matlab scripts and Fiji macro for analyzing images of cleared cochlea immunostained with anti-MYO7A antibody using 3D watershed method.
 _____________________________________________________________________________________________
 
 This program needs:
