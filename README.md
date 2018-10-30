@@ -15,10 +15,10 @@ Data size:
 _____________________________________________________________________________________________
 
 For testing the program, please run the scripts/macro as follows:
-  1. Run "Watershed_main1.m" on Matlab, which calculates a threshold value.
+  1. Run "Watershed_main1.m" on Matlab, which calculates threshold value.
   2. Open "Watershed_main2 (macro for Fiji).txt".
   3. Make sure that "threshold" value in line 2 is the same as the value calculated in step 1.
-  4. Close "Watershed_main2 (macro for Fiji).txt"
+  4. Close "Watershed_main2 (macro for Fiji).txt".
   5. Start Fiji and open "linearizedIm2.tif".
   6. Run "Watershed_main2 (macro for Fiji).txt" on Fiji.
   7. Save resulting "watershed.tif" file.
@@ -31,7 +31,7 @@ It takes ~5 minutes for running all the scripts on PC with:
 
 Following result files will be saved in "..\Results":
   - "innerImage.tif", "outerImage.tif"   (Images indicating detected cells)
-  - "detectedHairCells.xlsx"       (Coordinates of detected cells. Sheet1:IHCs, Sheet2:OHCs)
+  - "detectedHairCells.xlsx"       (Coordinates of detected cells; sheet1:IHCs, sheet2:OHCs)
 _____________________________________________________________________________________________
 
 October 30, 2018
